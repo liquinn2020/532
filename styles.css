@@ -1,0 +1,59 @@
+/* Css File */
+
+h1, h2 {
+    margin: 20px;
+    padding: 10px;
+}
+
+h1 {
+    border: 3px solid blue; 
+    text-align: center;
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: rgb(12, 125, 12);
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+ol li {
+    color: #9b59b6;
+}
+
+
+a {
+    text-decoration: none;
+    color: lightcoral;
+}
+
+a:hover {
+    color: #e74c3c;
+}
+
+img {
+    border-radius: 20px;
+}
+
+
+footer {
+    background-color: #34495e;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: white;
+}
