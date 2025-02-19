@@ -1,31 +1,38 @@
-<!DOCTYPE html> 
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Contact Me</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="stylesAssignment2.css">
 </head>
 <body>
 
-<h1>Contact Me!</h1>
-<p></p>
-<form action>
-    <label for="fname">First name:</label><br>
-    <input type="text" id="name" name="name" value="Name"><br>
-    <form>
-        <label for="email">Enter your email:</label><br>
-        <input type="email" id="email" name="email" value="Email"><br>
-        <textarea id="w3review" name="w3review" rows="4" cols="50">
-            Message you want to send!
-            </textarea>
-      
-    
-    <input type="submit" value="Submit">   
-</form> 
- 
-<ul>
-    <li><a href="index.html"> Main Page</a></li>
-    <li><a href="about.html"> About Me!</a></li> 
-</ul>
+    <header>
+        <h1>Contact Me!</h1>
+    </header>
+
+    <main class="container">
+        <form action="#" method="POST" class="contact-form">
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Type your message here..." required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <nav class="nav-links">
+        <ul>
+            <li><a href="index.html">Main Page</a></li>
+            <li><a href="about.html">About Me!</a></li> 
+        </ul>
+    </nav>
 
 </body>
-</html> 
-
+</html>
